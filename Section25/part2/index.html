@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Section 25 II</title>
+	<script src="../../vue.js"></script>
+</head>
+
+<body>
+	<div id="app">
+		<ul>
+			<li v-for="(ingredient, i) in ingredients" :key="ingredient">
+				{{ ingredient }} ({{ i }})
+			</li>
+		</ul>
+		<button @click="ingredients.push('basilika')">Add New</button>
+		<hr>
+		<ul>
+			<li v-for="person in persons">
+				<div v-for="(value, key, i) in person">{{ key }}: {{ value }} ({{ i }})</div>
+			</li>
+		</ul>
+		<hr>
+		<span v-for="n in 10">{{ n }}</span>
+		<hr>
+		<template v-for="(ingredient, i) in ingredients">
+			<h1>{{ ingredient }}</h1>
+			<p>{{ i }}</p>
+		</template>
+	</div>
+	<script src="app.js"></script>
+</body>
+
+</html>

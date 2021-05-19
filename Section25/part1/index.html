@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Section 25 I</title>
+	<script src="../../vue.js"></script>
+</head>
+
+<body>
+	<div id="app">
+		<p v-if='show'>You can see me!</p>
+		<p v-else>Now you don't</p>
+		<template v-if='show'>
+			<h1>Heading</h1>
+			<p>Inside a template</p>
+		</template>
+		<p v-show="show">I am hidden but I will still be in the DOM</p>
+		<button @click="show = !show">Switch</button>
+	</div>
+	<script src="app.js"></script>
+</body>
+
+</html>
