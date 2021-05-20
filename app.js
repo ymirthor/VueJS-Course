@@ -34,7 +34,10 @@ new Vue({
       },
       'Section 29': {
         'Using components': 'Section29/part1/index.html',
-        'Why components use functions for data': 'Section29/part2/index.html'
+        'Why components use functions for data': 'Section29/part2/index.html',
+        'Local & glopal components': 'Section29/part3/index.html',
+        'Root component': 'Section29/part4/index.html',
+        'Exercise 6': 'Exercises/Exercise6/index.html'
       }
     }
   }

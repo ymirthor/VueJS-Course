@@ -1,19 +1,27 @@
-let data = {
-  status: 'Critical'
-}
-
-Vue.component('rud-cmp', {
+let cmp = {
   data: function () {
-    return data;
+    return {
+      status: 'Critical'
+    };
   },
   template: '<p>Server Status: {{ status }}<button @click="changeStatus">Change status</button></p>',
   methods: {
     changeStatus: function () {
-      this.status = 'Oh no bad'
+      this.status = 'OK'
     }
+  }
+};
+
+new Vue({
+  el: '#app',
+  components: {
+    'rud-cmp': cmp
   }
 });
 
 new Vue({
-  el: '#app'
+  el: '#app2'
 });
+
+// This is how to set it up globally
+// Vue.component('rud-cmp', { ... })
