@@ -12,17 +12,17 @@
 </template>
 
 <script>
-import RUDHeader from "./components/Header.vue";
-import RUDManageServers from "./components/ManageServers.vue";
-import RUDServerList from "./components/ServerList.vue";
-import RUDServerDetails from "./components/ServerDetails.vue";
+import rudHeader from "./components/Header.vue";
+import rudManageServers from "./components/ManageServers.vue";
+import rudServerList from "./components/ServerList.vue";
+import rudServerDetails from "./components/ServerDetails.vue";
 
 export default {
   components: {
-    "rud-header": RUDHeader,
-    "rud-manage-servers": RUDManageServers,
-    "rud-server-list": RUDServerList,
-    "rud-server-details": RUDServerDetails,
+    rudHeader,
+    rudManageServers,
+    rudServerList,
+    rudServerDetails,
   },
 };
 </script>

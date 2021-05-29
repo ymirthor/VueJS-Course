@@ -1,7 +1,7 @@
 new Vue({
   el: '#app',
   data: {
-    title: 'VueJS Course',
+    title: 'VueJS v2 & v3 Course',
     links: {
       'Section 23': {
         'Hello World!': 'Section23/part1/index.html'
@@ -38,6 +38,9 @@ new Vue({
         'Local & glopal components': 'Section29/part3/index.html',
         'Root component': 'Section29/part4/index.html',
         'Exercise 6': 'Exercises/Exercise6/index.html'
+      },
+      'Section 30': {
+        'Exercise 7': 'Exercises/Exercise7/index.html'
       }
     }
   }
