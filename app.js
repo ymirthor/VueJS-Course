@@ -41,7 +41,15 @@ new Vue({
       },
       'Section 30': {
         'Exercise 7': 'Exercises/Exercise7/index.html'
-      }
+      },
+      'Section 31': {
+        'Using slots for components': 'Section31/index.html',
+        'Exercise 8': 'Exercises/Exercise8/index.html'
+      },
+      'Section 32': {
+        'Quotes Quota': 'Section32/index.html',
+      },
+      
     }
   }
 });
