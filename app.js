@@ -49,6 +49,10 @@ new Vue({
       'Section 32': {
         'Quotes Quota': 'Section32/index.html',
       },
+      'Section 33': {
+        'Form control': 'Section33/index.html',
+        'Exercise 9': 'Exercises/Exercise9/index.html'
+      },
       
     }
   }
