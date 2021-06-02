@@ -55,8 +55,8 @@ new Vue({
       },
       'Section 34': {
         'Directives': 'Sections/Section34/index.html',
-      },
-      
+        'Exercise 10': 'Exercises/Exercise10/index.html'
+      }
     }
   }
 });
