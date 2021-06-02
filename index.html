@@ -5,27 +5,32 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/foundation.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/mystyle.css">
   <title>VueJS Menu</title>
   <script src="https://npmcdn.com/vue/dist/vue.js"></script>
 </head>
 
 <body>
-  <a href="https://github.com/ymirthor/VueJS-Course/">https://github.com/ymirthor/VueJS-Course/</a>
-  <div id="app">
-    <h1>{{ title }}</h1>
-    <ul>
-      <template v-for="(parts, section) in links">
-        <h3>
-          {{ section }}
-        </h3>
-        <li v-for="(ref, name) in parts" v-if="parts.length !== 0">
-          <a :href="ref">
-            {{ name }}
-          </a>
-        </li>
-      </template>
-    </ul>
+  <div class="container">
+    <a href="https://github.com/ymirthor/VueJS-Course/">github repo</a>
+    <div id="app">
+      <h1>{{ title }}</h1>
+      <h2>Vue 2</h2>
+      <ul>
+        <template v-for="(parts, section) in vue2">
+          <h3>
+            {{ section }}
+          </h3>
+          <li v-for="(ref, name) in parts" v-if="parts.length !== 0">
+            <a :href="ref" :class="{ 'exercise': /Exercise/.test(name) }">
+              {{ name }}
+            </a>
+          </li>
+        </template>
+      </ul>
+    </div>
   </div>
   <script src="app.js"></script>
 </body>

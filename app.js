@@ -1,8 +1,9 @@
 new Vue({
   el: '#app',
   data: {
-    title: 'VueJS v2 & v3 Course',
-    links: {
+    title: 'VueJS Course',
+
+    vue2: {
       'Section 23': {
         'Hello World!': 'Sections/Section23/part1/index.html'
       },
@@ -56,7 +57,34 @@ new Vue({
       'Section 34': {
         'Directives': 'Sections/Section34/index.html',
         'Exercise 10': 'Exercises/Exercise10/index.html'
-      }
+      },
+      'Section 35': {
+        'TBA': 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+      },
+      'Section 36': {
+        'TBA': 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+      },
+      'Section 37': {
+        'TBA': 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+      },
+      'Section 38': {
+        'TBA': 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+      },
+      'Section 39': {
+        'TBA': 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+      },
+      'Section 40': {
+        'TBA': 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+      },
+      'Section 41': {
+        'TBA': 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+      },
+      'Section 42': {
+        'TBA': 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+      },
+      'Section 43': {
+        'TBA': 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+      },
     }
   }
 });
