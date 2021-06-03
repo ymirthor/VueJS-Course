@@ -60,6 +60,7 @@ new Vue({
       },
       'Section 35': {
         'Filters and Mixins': 'Sections/Section35/index.html',
+        'Exercise 11': 'Exercises/Exercise11/index.html'
       },
       'Section 36': {
         'TBA': 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
