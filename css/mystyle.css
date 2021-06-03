@@ -19,6 +19,18 @@ a:hover {
     box-shadow: 5px 3px 10px 0px rgba(31, 59, 66, 0.1);
 }
 
+img {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+h1 img {
+    height: 4rem;
+}
+
 a img {
     height: 1rem;
 }
