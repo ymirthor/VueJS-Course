@@ -59,7 +59,7 @@ new Vue({
         'Exercise 10': 'Exercises/Exercise10/index.html'
       },
       'Section 35': {
-        'TBA': 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+        'Filters and Mixins': 'Sections/Section35/index.html',
       },
       'Section 36': {
         'TBA': 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
