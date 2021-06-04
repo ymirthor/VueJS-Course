@@ -63,7 +63,7 @@ new Vue({
         'Exercise 11': 'Exercises/Exercise11/index.html'
       },
       'Section 36': {
-        'TBA': 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+        'Animations': 'Sections/Section36/index.html'
       },
       'Section 37': {
         'TBA': 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
