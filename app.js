@@ -64,7 +64,8 @@ new Vue({
       },
       'Section 36': {
         'Animations': 'Sections/Section36/part1/index.html',
-        'The Super Quiz': 'Sections/Section36/part2/index.html'
+        'The Super Quiz': 'Sections/Section36/part2/index.html',
+        'Monster Slayer v2': 'Sections/Section36/part3/index.html'
       },
       'Section 37': {
         'TBA': 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
