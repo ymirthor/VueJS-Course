@@ -88,6 +88,14 @@ new Vue({
       'Section 43': {
         'TBA': 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
       },
+    },
+    darkMode: true,
+  },
+  computed: {
+    myStyle() {
+      let backgroundColor = this.darkMode ? "#111" : "#fff";
+      let color = this.darkMode ? "#fff" : "#111";
+      return { backgroundColor, color }
     }
   }
 });

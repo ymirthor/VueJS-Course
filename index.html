@@ -13,14 +13,23 @@
 </head>
 
 <body>
-  <div class="container mt-3">
-    <a href="https://github.com/ymirthor/VueJS-Course/">
-      <img src="./img/GitHub-Mark-Light-32px.png" alt="Github Logo">
-      Github repository
-    </a>
-    <div id="app">
-      
-      <h1><img src="./img/VueJS-logo.png" alt="VueJS Logo"> {{ title }}</h1>
+  <div id="app" :style="myStyle">
+    <div class="container pt-3">
+
+      <header>
+        <a href="https://github.com/ymirthor/VueJS-Course/">
+          <img src="./img/GitHub-Mark-Light-32px.png" alt="Github Logo">
+          Github repository
+        </a>
+        <h1><img src="./img/VueJS-logo.png" alt="VueJS Logo"> {{ title }}</h1>
+        <div class="custom-control custom-switch">
+          <input type="checkbox" class="custom-control-input" id="customSwitch1" v-model="darkMode">
+          <label class="custom-control-label" for="customSwitch1">Dark mode</label>
+        </div>
+      </header>
+    </div>
+    <div class="container">
+
       <h2>Vue 2</h2>
       <ul>
         <template v-for="(parts, section) in vue2">
