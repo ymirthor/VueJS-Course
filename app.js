@@ -36,7 +36,7 @@ new Vue({
       'Section 29': {
         'Using components': 'Sections/Section29/part1/index.html',
         'Why components use functions for data': 'Sections/Section29/part2/index.html',
-        'Local & glopal components': 'Sections/Section29/part3/index.html',
+        'Local & global components': 'Sections/Section29/part3/index.html',
         'Root component': 'Sections/Section29/part4/index.html',
         'Exercise 6': 'Exercises/Exercise6/index.html'
       },
@@ -71,7 +71,7 @@ new Vue({
         'HTTP': 'Sections/Section37/index.html'
       },
       'Section 38': {
-        'TBA': 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+        'Routing': 'Sections/Section38/index.html'
       },
       'Section 39': {
         'TBA': 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
