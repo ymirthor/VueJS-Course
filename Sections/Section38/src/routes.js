@@ -18,7 +18,7 @@ export const routes = [
     }
   },
   {
-    path: '/VueJS-Course/Sections/Section38/user', components: {
+    path: '/VueJS-Course/Sections/Section38/user', name: 'users', components: {
       default: User,
       'header-bottom': Header
     }, children: [
