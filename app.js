@@ -68,7 +68,7 @@ new Vue({
         'Monster Slayer v2': 'Sections/Section36/part3/index.html'
       },
       'Section 37': {
-        'TBA': 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+        'HTTP': 'Sections/Section37/index.html'
       },
       'Section 38': {
         'TBA': 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
