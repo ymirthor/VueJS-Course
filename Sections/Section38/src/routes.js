@@ -32,6 +32,6 @@ export const routes = [
       { path: ':id/edit', component: UserEdit, props: true, name: 'userEdit' }
     ]
   },
-  { path: '/VueJS-Course/Sections/Section38/redirect-me', redirect: '/user' },
-  { path: '*', redirect: '/VueJS-Course/Sections/Section38/' }
+  { path: '/VueJS-Course/Sections/Section38/redirect-me', redirect: { name: 'users' } },
+  { path: '*', redirect: { name: 'home' } }
 ]
