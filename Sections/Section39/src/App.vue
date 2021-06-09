@@ -7,6 +7,10 @@
         <rud-another-result></rud-another-result>
         <hr />
         <rud-counter></rud-counter>
+        <rud-another-counter></rud-another-counter>
+        <hr />
+        <input type="text" v-model="value" />
+        <p>{{ value }}</p>
       </div>
     </div>
   </div>
@@ -16,10 +20,22 @@
 import rudCounter from "./components/Counter.vue";
 import rudResult from "./components/Result.vue";
 import rudAnotherResult from "./components/AnotherResult.vue";
+import rudAnotherCounter from "./components/AnotherCounter.vue";
 
 export default {
+  computed: {
+    value: {
+      get() {
+        return this.$store.getters.value;
+      },
+      set(value) {
+        this.$store.dispatch('updateValue', value);
+      }
+    },
+  },
   components: {
     rudCounter,
+    rudAnotherCounter,
     rudResult,
     rudAnotherResult,
   },

@@ -74,7 +74,7 @@ new Vue({
         'Routing': 'Sections/Section38/index.html'
       },
       'Section 39': {
-        'TBA': 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+        'Modules': 'Sections/Section39/index.html'
       },
       'Section 40': {
         'TBA': 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
