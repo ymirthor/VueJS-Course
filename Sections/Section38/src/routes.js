@@ -12,13 +12,13 @@ const UserEdit = resolve => require.ensure(['./components/user/UserEdit.vue'],
 
 export const routes = [
   {
-    path: '/VueJS-Course/Sections/Section38/', name: 'home', components: {
+    path: '/', name: 'home', components: {
       default: Home,
       'header-top': Header
     }
   },
   {
-    path: '/VueJS-Course/Sections/Section38/user', name: 'users', components: {
+    path: '/user', name: 'users', components: {
       default: User,
       'header-bottom': Header
     }, children: [
@@ -32,6 +32,6 @@ export const routes = [
       { path: ':id/edit', component: UserEdit, props: true, name: 'userEdit' }
     ]
   },
-  { path: '/VueJS-Course/Sections/Section38/redirect-me', redirect: { name: 'users' } },
+  { path: '/redirect-me', redirect: { name: 'users' } },
   { path: '*', redirect: { name: 'home' } }
 ]

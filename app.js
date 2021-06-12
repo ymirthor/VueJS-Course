@@ -77,7 +77,7 @@ new Vue({
         'Modules': 'Sections/Section39/index.html'
       },
       'Section 40': {
-        'TBA': 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+        'Stock Trader': 'Sections/Section40/index.html'
       },
       'Section 41': {
         'TBA': 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
