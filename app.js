@@ -79,11 +79,8 @@ new Vue({
       'Section 40': {
         'Stock Trader': 'Sections/Section40/index.html'
       },
-      'Section 41': {
-        'TBA': 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
-      },
       'Section 42': {
-        'TBA': 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+        'Axios': 'Sections/Section42/index.html'
       },
       'Section 43': {
         'TBA': 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
