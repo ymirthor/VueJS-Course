@@ -83,7 +83,7 @@ new Vue({
         'Axios': 'Sections/Section42/index.html'
       },
       'Section 43': {
-        'TBA': 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+        'Authentication': 'Sections/Section43/index.html'
       },
     },
     darkMode: true,
